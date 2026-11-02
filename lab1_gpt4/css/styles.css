@@ -355,6 +355,30 @@ p {
   width: 55%;
   color: #81afdd;
 }
+
+/* Превосходя все ожидания */
+.my_apps .right__container{
+  flex: 1;
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.my_apps .left_img{
+  display: inline-flex;
+  flex-direction: column;
+  
+}
+
+.my_apps .right__container .down__cta{
+  color: #f49867;
+  border-bottom: 1px solid transparent;
+}
+
+.my_apps .right__container .right_text{
+  width: 55%;
+  color: #81afdd;
+}
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {

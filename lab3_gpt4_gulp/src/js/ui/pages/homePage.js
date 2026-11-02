@@ -4,6 +4,10 @@ import initBrands from "./../components/initBrands.js";
 import initWhatIsGpt from "./../components/initWhatIsGpt.js";
 import initFutureHere from "./../components/initFutureHere.js";
 import initBurger from "./../components/initBurger.js";
+import initExp from "./../components/initExpectations.js";
+import initReg from "./../components/initReg.js";
+import initPic from "../components/initPic.js";
+import initEnd from "../components/initEnd.js";
 
 const createHomePageTemplate = (rootNode) => {
   // формируем шаблон базовых секций для дальнейшего монтирования в них
@@ -14,6 +18,10 @@ const createHomePageTemplate = (rootNode) => {
     <section class="section brands_section"></section>
     <section class="section what_is_chatgpt_section"></section>
     <section class="section future_here"></section>
+    <section class="section expectations"></section>
+    <section class="section registration"></section>
+    <section class="section pictures"></section>
+    <section class="end section"></section>
   `;
 
   rootNode.insertAdjacentHTML("beforeend", template); 
@@ -43,6 +51,18 @@ const homePage = () => {
   // инициализация раздела "Будущее наступило" с мок датой
   const futureHereNode = rootNode.querySelector(".future_here");
   initFutureHere(futureHereNode);
+
+  const expNode = rootNode.querySelector(".expectations");
+  initExp(expNode);
+
+  const regNode = rootNode.querySelector(".registration");
+  initReg(regNode);
+
+  const picNode = rootNode.querySelector(".pictures");
+  initPic(picNode);
+
+  const endNode = rootNode.querySelector(".end");
+  initEnd(endNode);
 
   // инициализация бургера для адаптивного меню
   initBurger(headerNode);
