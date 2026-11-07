@@ -6,6 +6,7 @@ import FutureHere from "../components/FutureHere";
 import Expectation from "../components/Expectations";
 import Reg from "../components/Reg";
 import Pic from "../components/Pic";
+import End from "../components/End";
 
 const Home = () => {
   return (
@@ -31,8 +32,11 @@ const Home = () => {
       <section className="section registration">
         <Reg />
       </section>
-      <section class="section pictures">
+      <section className="section pictures">
         <Pic />
+      </section>
+      <section className="end section">
+        <End />
       </section>
     </>
   );

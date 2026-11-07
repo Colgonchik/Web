@@ -1,4 +1,4 @@
-export const header = "Хотите Шагнуть в Будущее <br>Раньше Других?";
+export const header = "Хотите Шагнуть в Будущее Раньше Других?";
 
 export const title = "Запросите ранний доступ";
 
