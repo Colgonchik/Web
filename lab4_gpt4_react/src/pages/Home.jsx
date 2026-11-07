@@ -4,6 +4,7 @@ import Brands from "../components/Brands";
 import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
 import Expectation from "../components/Expectations";
+import Reg from "../components/Reg";
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
       </section>
       <section className="section expectations">
         <Expectation />
+      </section>
+      <section className="section registration">
+        <Reg />
       </section>
     </>
   );
