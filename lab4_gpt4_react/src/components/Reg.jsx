@@ -1,7 +1,7 @@
 import { regData } from "../mockData/regData";
 
 export const Header = ({ header }) => (
-  <h2 className="reg_header">{header}</h2>
+  <h3 className="reg_header">{header}</h3>
 );
 
 export const Description = ({ description }) => (

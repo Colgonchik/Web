@@ -5,6 +5,7 @@ import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
 import Expectation from "../components/Expectations";
 import Reg from "../components/Reg";
+import Pic from "../components/Pic";
 
 const Home = () => {
   return (
@@ -29,6 +30,9 @@ const Home = () => {
       </section>
       <section className="section registration">
         <Reg />
+      </section>
+      <section class="section pictures">
+        <Pic />
       </section>
     </>
   );
